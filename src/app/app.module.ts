@@ -7,7 +7,6 @@ import { createCustomElement } from '@angular/elements';
 import * as fromSettings from './app.settings';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
-import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
 	declarations: [AppComponent],
@@ -22,6 +21,7 @@ export class AppModule {
 	ngDoBootstrap() {
 		const element = createCustomElement(AppComponent, { injector: this.injector });
 		customElements.define(fromSettings.APP_NAME, element);
+
 		console.info(`${fromSettings.APP_NAME} micro app has been initialized`);
 	}
 }

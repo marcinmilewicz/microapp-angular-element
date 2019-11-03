@@ -2,9 +2,9 @@ const concat = require('concat');
 const cpx = require('cpx');
 
 (async function() {
-	const dist = './dist/foo-microapp';
+	const dist = './dist/bar-microapp';
 	const outputDirectory = './gen';
-	const outputFile = 'foo-microapp.js';
+	const outputFile = 'bar-microapp.js';
 
 	const filesToConcat = [`${dist}/runtime.js`, `${dist}/polyfills.js`, `${dist}/scripts.js`, `${dist}/main.js`];
 	const filesToCopy = ['[0-9]*.js', 'styles.css', 'common.js'];

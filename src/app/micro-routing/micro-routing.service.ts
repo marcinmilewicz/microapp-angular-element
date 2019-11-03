@@ -15,9 +15,7 @@ interface RouteChangedEvent {
 	};
 }
 
-@Injectable({
-	providedIn: 'root'
-})
+@Injectable()
 export class MicroRoutingService {
 	private routeChange$: Observable<any>;
 
