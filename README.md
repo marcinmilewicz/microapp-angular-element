@@ -1,4 +1,4 @@
-# Foo Microapp
+# Bar Microapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Description
 
-It's Angular application that uses Angular Element library and exposes itself as web component
+It's Angular application that uses Angular Element library and exposes itself as web component "bar-microapp"
 
 Run `npm run build` for build microapp and serve it via http-server
 
