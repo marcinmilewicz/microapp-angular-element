@@ -12,4 +12,4 @@ It's Angular application that uses Angular Element library and exposes itself as
 
 Run `npm run build` for build microapp and serve it via http-server
 
-Application can be run standalone or via microfrontends shell e.q https://github.com/marcinmilewicz/microapp-shell
+Application can be run standalone or via microfrontends shell e.g https://github.com/marcinmilewicz/microapp-shell
